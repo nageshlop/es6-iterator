@@ -1,0 +1,8 @@
+dist: xenial
+arch:
+   - amd64
+   - ppc64le  
+language: node_js
+node_js:
+   - node
+   - lts/* #latest LTS Node.js release
